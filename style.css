@@ -51,21 +51,43 @@ body{
     width: 54px;
 }
 
+.sidebar-logo:hover{
+    cursor: pointer;
+    background: #1da1f214;
+    border-radius: 50%;
+}
+
 .sidebar-logo img{
     height: 28px;
     width: 34px;
 }
 
 .sidebar-section{
-    width: 112px;
+    /* width: 112px; */
     height: 48px;
     color: white;
     padding: 10px;
     margin: 0 0 8px;
     display: flex;
     align-items: center;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+    padding: 10px;
+    transition-property: background;
+    transition-duration: 0.3s;
+
 
 }
+
+.sidebar-section:hover{
+    color:#1da1f2;
+    background: #1da1f214;
+    cursor: pointer;
+}
+
+
 
 .sidebar-name{
     margin: 0 0 0 10px;
@@ -78,12 +100,17 @@ body{
     background-color: #1ea1f1;
     border: none;
     padding: 10px 30px;
+    font-weight: 700px;
+    font-size: 1.15rem;
     border-bottom-left-radius: 99999px;
     border-top-left-radius: 99999px;
     border-bottom-right-radius: 99999px;
     border-top-right-radius: 99999px;
-    font-weight: 700px;
-    font-size: 1.15rem;
+}
+
+.sidebar-button:hover{
+    background-color:  #1687cd ;
+    cursor: pointer;
 }
 
 /* styling the bottom of the side-bar */
@@ -92,8 +119,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+   padding: 15px;
 }
+
+.sidebar-bottom:hover{
+    background: #1da1f214;
+    cursor: pointer;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+}
+
 .profile-info{
     display: flex;
 }
