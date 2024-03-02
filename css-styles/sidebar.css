@@ -11,6 +11,7 @@ body{
     font-family: "Roboto", sans-serif;
     background: #15212c;
     height: 1168.5px;
+    display: flex;
 }
  /* styling all icons */
  .material-symbols-outlined{
@@ -26,9 +27,9 @@ body{
     height: 100%;
     width: 28%;
     border-right: 1px solid rgb(56, 68, 77);
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
 
 }
 .sidebar-items{
@@ -138,7 +139,7 @@ body{
     display: flex;
 }
 
-.sidebar-bottom img{
+.profile-image{
     border-radius: 400px;
     height: 48px;
     width: 48px;
