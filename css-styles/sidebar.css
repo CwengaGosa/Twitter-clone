@@ -16,9 +16,10 @@ body{
  /* styling all icons */
  .material-symbols-outlined{
     color: white;
-    height: 28px;
-    width: 28px;
-    
+    height: 30px;
+    width: 30px;
+    fill: white;
+    font-weight: 500;
  }
 /* styling the sidebar */
 .sidebar{

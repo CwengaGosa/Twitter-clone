@@ -36,6 +36,11 @@
     align-items: center;
     justify-content: center;
 }
+.home-icon:hover{
+    cursor: pointer;
+    background: #1da1f214;
+    border-radius: 50%;
+}
 
 .star-svg{
     fill: rgb(30,161,241);
@@ -131,36 +136,16 @@
     padding-top: 8px;
 }
 
-.svg-img{
+.svg-icon{
     fill: rgb(30,161,241);
     height: 2.15rem;
     width: 2.05rem;
     padding: 5px 4px;
 }
-.svg-gif{
-    fill: rgb(30,161,241);
-    height: 2.15rem;
-    width: 2.05rem;
-    padding: 5px 4px;
-
-}
-.svg-graph{
-    fill: rgb(30,161,241);
-    height: 2.15rem;
-    width: 2.05rem;
-    padding: 5px 4px;
-}
-.svg-smiley{
-    fill: rgb(30,161,241);
-    height: 2.15rem;
-    width: 2.05rem;
-    padding: 5px 4px;
-}
-.svg-schedule{
-    fill: rgb(30,161,241);
-    height: 2.15rem;
-    width: 2.05rem;
-    padding: 5px 4px;
+.svg-icon:hover{
+    cursor: pointer;
+    background: #1da1f214;
+    border-radius: 45%;
 }
 
 .post-button{
@@ -204,6 +189,10 @@
     font-size: 0.9375rem;
     font-weight: 700;
 }
+.main-name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .profile-link{
     font-size: 16px;
@@ -221,7 +210,9 @@
     fill: #80919e;
     height: 1.25rem;
     width: 1.2rem;
-    
+}
+.arrow-svg:hover{
+    cursor: pointer;
 }
 
 .tweet-paragraph{
@@ -239,6 +230,13 @@
 .footer-icon{
     display: flex;
     align-items: center;
+}
+
+.tweet-option-icon:hover{
+    fill: #1da1f2;
+    background: #1da1f214;
+    cursor: pointer;
+    border-radius: 45%;
 }
 
 .tweet-option-icon{
